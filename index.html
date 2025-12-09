@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Белый лист</title>
+    <meta name="description" content="Белый лист — пространство на Трёхгорной мануфактуре для глубокой командной работы, исследования и постоянного поиска нового">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="logo">
+                    <img src="image/logo.png" alt="Белый лист" class="logo__img">
+                </a>
+                
+                <nav class="nav">
+                    <a href="#space" class="nav__link">Пространство,</a>
+                    <a href="#approach" class="nav__link">Подход,</a>
+                    <a href="#contacts" class="nav__link">Контакты</a>
+                </nav>
+                
+                <div class="header__cta">
+                    <a href="#form" class="cta-link">Открытие весной 2026</a>
+                    <button class="menu-toggle" id="menuToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <div class="mobile-menu__content">
+                <button class="mobile-menu__close" id="menuClose">&times;</button>
+                <nav class="mobile-nav">
+                    <a href="#space" class="mobile-nav__link">Пространство,</a>
+                    <a href="#approach" class="mobile-nav__link">Подход,</a>
+                    <a href="#contacts" class="mobile-nav__link">Контакты</a>
+                </nav>
+                <div class="mobile-menu__info">
+                    <p>Москва, Трёхгорная мануфактура,<br>ул. Рочдельская, д. 15, стр. 1</p>
+                    <p><a href="tel:+79998698000">+7 999 869-80-00</a></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Fullscreen Image -->
+    <section class="fullscreen-image">
+        <img src="image/first.png" alt="Пространство Белый лист" class="fullscreen-img">
+    </section>
+
+    <!-- Hero section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    Белый лист — пространство на трёхгорной мануфактуре для глубокой командной работы, исследования и постоянного поиска нового
+                </h1>
+                <p class="hero__description">
+                    Каждый участок пространства можно адаптировать под задачи команды и процесса: настроить освещение, звук, расположить мебель, писать на стенах, подобрать сценарий перемещения и организовать ужин или обед.
+                </p>
+                <div class="hero__image">
+                    <img src="image/second.png" alt="Интерьер пространства">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Space section -->
+    <section class="space" id="space">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Пространство</h2>
+                <div class="section-subtitle">
+                    <h3>ДВА ЗАЛА НА 12 И 30 ЧЕЛОВЕК</h3>
+                    <p>В каждом из залов есть современное проекционное оборудование, маркерные доски, флипчарты, расходные материалы — всё, что может понадобиться для креативной стратегической сессии. Вы можете арендовать один из залов или сразу всё пространство.</p>
+                </div>
+            </div>
+            
+            <!-- Gallery Grid -->
+            <div class="gallery-container">
+                <div class="gallery-row">
+                    <div class="gallery-item">
+                        <img src="image/third.png" alt="Зал 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image/fourth.png" alt="Зал 2">
+                    </div>
+                </div>
+                
+                <div class="gallery-row single">
+                    <div class="gallery-item">
+                        <img src="image/five.png" alt="Зал 3">
+                    </div>
+                </div>
+                
+                <div class="gallery-row">
+                    <div class="gallery-item">
+                        <img src="image/six.png" alt="Зал 4">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image/seven.png" alt="Зал 5">
+                    </div>
+                </div>
+            </div>
+
+            <div class="space-features">
+                <div class="feature">
+                    <h4>Кухня</h4>
+                    <p>В «Белом листе» своя кухня, зона кафе и шеф-повар. Еда — важная часть командного процесса, которая может влиять на состояние участников и динамику происходящего. Поэтому концепцию блюд и подачи мы продумываем для каждой команды отдельно.</p>
+                </div>
+                <div class="feature">
+                    <h4>Атмосфера доверия и уединения</h4>
+                    <p>Пространство спроектировано таким образом, чтобы наших гостей ничего не отвлекало и команда могла сосредоточиться на созидательном процессе. У нас есть комната отдыха и возможность побыть в тишине и перезагрузиться.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Approach section -->
+    <section class="approach" id="approach">
+        <div class="container">
+            <div class="approach__content">
+                <h2 class="section-title">Подход</h2>
+                <div class="approach__text">
+                    <h3>Пребывание в нашем пространстве — полноценный опыт, где каждая деталь подчинена своей логике и сценарию, а отдельные элементы процесса — от стратсессии до совместного ужина после — слаженно перетекают одно в другое</h3>
+                    <p>Организацию этого опыта мы берём на себя. Перед началом подробно обсуждаем сценарий, цели и потребности команды, чтобы учесть всё важное для вас и фасилитатора.</p>
+                </div>
+                <div class="approach__image">
+                    <img src="image/eight.png" alt="Процесс работы">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form section -->
+    <section class="form-section" id="form">
+        <div class="container">
+            <div class="form-section__header">
+                <h2 class="section-title">ОТКЛИК</h2>
+                <h3 class="section-subtitle">Стать гостем «БЕЛОГО ЛИСТА»</h3>
+                <p>Оставьте свои контакты и мы проведем вам виртуальную экскурсию, а также расскажем об условиях. И, конечно, позовём в гости, как только откроемся.</p>
+            </div>
+            
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Имя" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Email или телеграм" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" name="phone" placeholder="Телефон" required>
+                </div>
+                <button type="submit" class="btn-submit">Отправить</button>
+                <p class="form-notice">
+                    Нажимая на кнопку «Отправить», вы принимаете нашу политику обработки персональных данных и даёте согласие на их обработку
+                </p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contacts section -->
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="contacts__header">
+                <div class="contacts__image">
+                    <img src="image/nine.png" alt="Процесс работы">
+                </div>
+                <h2 class="section-title">Контакты</h2>
+                <div class="contacts__info">
+                    <div class="contact-item">
+                        <span class="contact-label">адрес</span>
+                        <h4>Москва, трёхгорная мануфактура, ул. рочдельская, д. 15, стр. 1</h4>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">телефон</span>
+                        <h4><a href="tel:+79998698000">+7 999 869-80-00</a></h4>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">электронная почта</span>
+                        <h4><a href="mailto:info@listchist.ru">info@listchist.ru</a></h4>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">график работы</span>
+                        <h4>ежедневно, 10:00—20:00</h4>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contacts__map">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A4ed867aabede6d4fed1422c0cf66b01a78e18a106cd2ab31ca9da99b50cf471a&source=constructor" width="100%" height="400" frameborder="0" class="map-frame"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <img src="https://static.tildacdn.com/tild3736-6132-4362-b039-613938626366/bird_1.gif" alt="Логотип" class="footer-logo">
+                </div>
+                
+                <div class="footer__info">
+                    <div class="footer__contacts">
+                        <p>Москва, Трёхгорная мануфактура, ул. Рочдельская, д. 15, стр. 1</p>
+                        <p><a href="tel:+79998698000">+7 999 869-80-00</a> • <a href="mailto:info@listchist.ru">info@listchist.ru</a></p>
+                        <p><a href="#" class="policy-link">Политика обработки персональных данных</a></p>
+                    </div>
+                    
+                    <div class="footer__design">
+                        <p>Дизайн сайта — <a target="_blank">Иванов Ярослав</a></p>
+                    </div>
+                </div>
+                
+                <div class="footer__copyright">
+                    <p>2025 © Белый лист</p>
+                    <img src="image/Icon.png" alt="" class="footer-icon">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating CTA -->
+    <div class="floating-cta" id="floatingCTA">
+        <a href="#form" class="floating-cta__button">Открытие весной 2026</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
